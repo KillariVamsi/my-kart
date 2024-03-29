@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+#login-form{
+    margin-top: 170px;
+    height: 400px;
+}
+.form1{
+    margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#login{
+    background-image: url("https://img.freepik.com/premium-photo/hand-pushing-shopping-cart-trolley-blue-background_33874-314.jpg?size=626&ext=jpg&ga=GA1.1.1838628766.1709105187&semt=ais");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 675px;
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#main-header{
+    position: fixed;
+    width: 100%;
+    z-index : 1;
+    top: 0px;
+}
+
+
+
+#card{
+    text-decoration: none;
+}
+
+#product-wrapper, .wishlist , .profile{
+    margin-top: 110px;
+}
+
+
+#home-comp{
+    margin-top: 250px;
+}
+
+#p-btn :hover{
+    background-color: pink;
   }
+
+#product-details{
+    margin-top: 110px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo , .cart-icon, .navi, #arrow{
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* https://img.freepik.com/free-photo/front-view-shopping-word-red-table_23-2148281116.jpg?t=st=1709362132~exp=1709365732~hmac=e54a7a0731618a10d654831cef6f77c98e207c7ca7e12965df7ac010e8f29ce0&w=996 */
+
+/* https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg */
+
+/* https://img.freepik.com/premium-photo/hand-pushing-shopping-cart-trolley-blue-background_33874-314.jpg?size=626&ext=jpg&ga=GA1.1.1838628766.1709105187&semt=ais */
